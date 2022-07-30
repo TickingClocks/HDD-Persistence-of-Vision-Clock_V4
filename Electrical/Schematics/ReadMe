@@ -1,7 +1,0 @@
-The HDD Persistence of Vision Clock V4.0 is split between 2 PCBs.
-
-1. The Driver Board
-  -The driver board replaces the main PCB that was originally in the HDD. Connections are passed from the driver board through SMT spring pins. The spring pins make contact to SMT pads found on the LED board.
-  
-2. The LED Board
-  -The LED board sits where the bottom HDD platter is originally. The top platter is raised with a 3D printed spacer. The LED board will be bonded to the HDD case to prevent it from moving. The LED board holds the LEDs, optical sensor and a temperature sensor. Their connections are made through a hole in the HDD case where SMT spring pins from the Driver Board make contact with the LED board.
