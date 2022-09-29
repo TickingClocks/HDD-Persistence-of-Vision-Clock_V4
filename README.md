@@ -6,7 +6,9 @@
 <p align="center">V4.0 Prototypte:<p>
 
 <!--gif of the protytpe-->
+   <p align="center" >
 <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif1.gif">
+      </p>
 
 ---
 ---
