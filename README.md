@@ -1,5 +1,5 @@
-# HDD-Persistence-of-Vision-Clock_V4.1
-Version 4.1 of my HDD Persistence of Vision Clock.
+# HDD-Persistence-of-Vision-Clock_V4
+Version 4 of my HDD Persistence of Vision Clock.
 
 This clock uses a Dell MBE2147RC HDD heavily modified to be turned into a clock.
 
