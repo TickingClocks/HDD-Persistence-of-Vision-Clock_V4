@@ -7,7 +7,7 @@
 
 <!--gif of the protytpe-->
    <p align="center" >
-<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif1.gif">
+<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif1.gif" height:"400">
       </p>
 
 ---
