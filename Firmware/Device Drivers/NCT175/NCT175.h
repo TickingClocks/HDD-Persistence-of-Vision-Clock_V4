@@ -25,16 +25,16 @@
 extern I2C_HandleTypeDef 			hi2c1;
 
 //define the 3 sensor I2C addresses on the HDDCLK V4.0
-#define driverBoardSensorAddress  	0x48 << 1 //Driver Board PCB Temperature
-#define ambientAirSensorAddress  	0x49 << 1 //Ambient Air Temperature (V4.0 PCB is routed poorly for ambient air)
-#define LEDBoardSensorAddress  		0x4C << 1 //LED Board PCB Temperature
+#define driverBoardSensorAddress  	  0x48 << 1 //Driver Board PCB Temperature
+#define ambientAirSensorAddress  	    0x49 << 1 //Ambient Air Temperature (V4.0 PCB is routed poorly for ambient air)
+#define LEDBoardSensorAddress  		    0x4C << 1 //LED Board PCB Temperature
 
 //define the register addresses in the NCT175 temperature sensor
-#define tempRegister 				0x00 //temperature register
-#define NCT175_configRegister 		0x01 //configuration register
-#define THYSTRegister				0x02 //temperature hysteresis register
-#define TOSRegister					0x03 //temperature over temperature register
-#define oneShotRegister				0x04 //one shot register
+#define tempRegister 				          0x00 //temperature register
+#define NCT175_configRegister 		    0x01 //configuration register
+#define THYSTRegister				          0x02 //temperature hysteresis register
+#define TOSRegister					          0x03 //temperature over temperature register
+#define oneShotRegister				        0x04 //one shot register
 
 /*
  * DEFAULT CONFIG REG SETTINGS:
@@ -44,11 +44,11 @@ extern I2C_HandleTypeDef 			hi2c1;
  *  Comparator mode selected
  *  Normal power mode
  */
-#define NCT175_configRegVal			0x00 //0x00=default
-#define	THYSTRegVal					0x4B00 //default (75°C)
-#define TOSRegVal					0x5000 //default (80°C)
+#define NCT175_configRegVal			      0x00 //0x00=default
+#define	THYSTRegVal					          0x4B00 //default (75°C)
+#define TOSRegVal					            0x5000 //default (80°C)
 
-#define NCT175_I2C_Delay			100
+#define NCT175_I2C_Delay			        100
 
 //function prototypes
 void NCT175_Init(uint8_t sensor);
