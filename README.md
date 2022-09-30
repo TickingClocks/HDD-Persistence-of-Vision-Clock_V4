@@ -22,9 +22,9 @@ The light mask spins quickly, the processor on the Driver Board monitors the sen
 
 There are 2 types of light masks that I have currently designed. 
 * The first uses a slit going from the center of the platter to the edge. This allows me to draw lines radiating from the center of the display. I use this mask to draw an analog clock.
-<!--add reference image-->
+<p align="center">*Light masks are PCBs. Actual ordered PCBs have black solder mask.</p>
 <p align="center">
-   <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_front.png" width="200"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_back.png" width="200">
+   <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_front.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_back.png" width="250">
 </p>
 * The second uses what is known as a _Nipkow Disk_. This is a disk that has holes spiraling from the center at a constant rate. Each of these holes can then be used to draw pixels on the display. Each hole corresponds to a horizontal line on the display, the vertical pixels are then placed by rotating the light mask.
 <!--add reference image-->
