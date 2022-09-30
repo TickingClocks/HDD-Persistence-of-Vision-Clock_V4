@@ -13,7 +13,7 @@
 ---
 ---
 
-## Project explanation
+## Project Explanation
 The front face of a HDD is removed exposing the internals. The platters are replaced with a stationary LED board and a spinning light mask. The LED board sits against the HDD frame, stationary. The light mask is mounted to the HDD motor.
 
 There is an IR reflective sensor mounted on the LED board that keeps track of an index point on the bottom of the light mask.
