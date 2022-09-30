@@ -87,6 +87,6 @@ I'm currently developing this project in my spare time. Updates will probably co
         * [x] real time clock
         * [x] LEDs
         * [ ] motor driver chip (V4.1)
-    * Persistence of vision
+    * Persistence of vision (basic)
         * [x] slit light mask
         * [ ] Nipkow Disk
