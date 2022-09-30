@@ -45,6 +45,9 @@ The project has 2 PCBs
 * Driver Board
     * This board replaces the original PCB.
     * The Driver Board has an STM32F411 processor running at 100MHz. The driver board controls the whole system from the motor driver chip, LEDs, Temperature sensors, human interface, etc.
+<p>
+   <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/HDDCLK_V4.0_Driver%20Board_top_edit.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/HDDCLK_V4.0_Driver%20Board_bottom_edit.png" width="250">
+</p>
 * LED Board
     * This board replaces the bottom platter in the HDD. A 3D printed spacer is used to elevate the light mask, which replaces the second platter.
     * The LED board contains 116 APA102-2020 LEDs in a circular pattern. It also has an IR reflective sensor which can be used to either track a shiny pad on the light mask, or the absence of one, depending on the light mask used. The LED board also has a board mounted temperature sensor.
