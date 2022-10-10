@@ -74,12 +74,14 @@ I'm currently developing this project in my spare time. Updates will probably co
         * [x] fix air temp sensor routing
         * [x] fix motor connector orientation
         * [x] update IR sensor signal resistors
-        * [ ] order PCBs and parts
-        * [ ] build and test
+        * [x] order PCBs and parts
+        * [ ] Assemble PCB
+        * [ ] test hardware
     * [ ] LED Board V4.0
         * [x] pick new IR reflective sensor
-        * [ ] order PCBs and parts
-        * [ ] build and test
+        * [x] order PCBs and parts
+        * [ ] assmble PCB
+        * [ ] test hardware
 
 * Firmware
     * Devices
