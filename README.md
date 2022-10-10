@@ -75,7 +75,7 @@ I'm currently developing this project in my spare time. Updates will probably co
         * [x] fix motor connector orientation
         * [x] update IR sensor signal resistors
         * [x] order PCBs and parts
-        * [ ] Assemble PCB
+        * [ ] assemble PCB
         * [ ] test hardware
     * [ ] LED Board V4.0
         * [x] pick new IR reflective sensor
