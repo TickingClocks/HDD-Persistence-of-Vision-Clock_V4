@@ -18,7 +18,7 @@ The front face of a HDD is removed exposing the internals. The platters are repl
 
 There is an IR reflective sensor mounted on the LED board that keeps track of an index point on the bottom of the light mask.
 
-The light mask spins quickly, the processor on the Driver Board monitors the sensor and tracks the period of time it takes for a full rotation. The LEDs can then be controlled with precise timing to allow light to escape the holes in the light mask when the light mask is at its desired rotational angle. Doing this quickly enough can trick the eye into seeing an image. This is called <a href="https://en.wikipedia.org/wiki/Persistence_of_vision" target="_blank">_persistence of vision_</a>.
+The light mask spins quickly, the processor on the Driver Board monitors the sensor and tracks the period of time it takes for a full rotation. The LEDs can then be controlled with precise timing to allow light to escape the holes in the light mask when the light mask is at its desired rotational angle. Doing this quickly enough can trick the eye into seeing an image. This is called <a href="https://en.wikipedia.org/wiki/Persistence_of_vision" target="_blank" rel="noreferrer noopener">_persistence of vision_</a>.
 
 There are 2 types of light masks that I have designed. 
 * The first uses a slit going from the center of the platter to the edge. This allows me to draw lines radiating from the center of the display. I use this mask to draw an analog clock.
@@ -26,7 +26,7 @@ There are 2 types of light masks that I have designed.
    <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_front.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_back.png" width="250">
 </p>
 
-* The second uses what is known as a <a href="https://en.wikipedia.org/wiki/Nipkow_disk" target="_blank">_Nipkow Disk_</a>. This is a disk that has holes spiraling from the center at a constant interval. Each of these holes can then be used to draw pixels on the display. Each hole corresponds to a horizontal line on the display, the vertical pixels are then placed by rotating the light mask and pulsing a backight. One light mask has 8 holes, the other has 12.
+* The second uses what is known as a <a href="https://en.wikipedia.org/wiki/Nipkow_disk" target="_blank" rel="noreferrer noopener">_Nipkow Disk_</a>. This is a disk that has holes spiraling from the center at a constant interval. Each of these holes can then be used to draw pixels on the display. Each hole corresponds to a horizontal line on the display, the vertical pixels are then placed by rotating the light mask and pulsing a backight. One light mask has 8 holes, the other has 12.
 <p align="center">
    <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/8%20hole%20nipkow%20mask_front.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/8%20hole%20nipkow%20mask_back.png" width="250">
 </p>
@@ -34,7 +34,6 @@ There are 2 types of light masks that I have designed.
    <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/12%20hole%20nipkow%20mask_front.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/12%20hole%20nipkow%20mask_back.png" width="250">
 </p>
 <p align="center">*Light masks are PCBs. Actual ordered PCBs have black solder mask. V4 clock uses the same light masks as V3.</p>
-<!--add reference image-->
 
 ---
 
