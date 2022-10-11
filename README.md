@@ -20,7 +20,7 @@ There is an IR reflective sensor mounted on the LED board that keeps track of an
 
 The light mask spins quickly, the processor on the Driver Board monitors the sensor and tracks the period of time it takes for a full rotation. The LEDs can then be controlled with precise timing to allow light to escape the holes in the light mask when the light mask is at its desired rotational angle. Doing this quickly enough can trick the eye into seeing an image. This is called <a href="https://en.wikipedia.org/wiki/Persistence_of_vision" target="_blank" rel="noreferrer noopener">_persistence of vision_</a>.
 
-There are 2 types of light masks that I have designed. 
+There are 2 types of _light masks_ that I have designed. 
 * The _first_ uses a slit going from the center of the platter to the edge. This allows me to draw lines radiating from the center of the display. I use this mask to draw an analog clock.
 <p align="center">
    <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_front.png" width="250"> <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/slit%20mask_back.png" width="250">
