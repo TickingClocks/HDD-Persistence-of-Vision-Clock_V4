@@ -9,6 +9,8 @@
    <p align="center" >
 <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif1.gif" height:"400">
       </p>
+      
+<p align="center"><a href="https://youtu.be/2cXJMgh0BA4" target="_blank" rel="noreferrer noopener"><i>V2.0 Project YouTube Video</i></a></p>
 
 ---
 ---
