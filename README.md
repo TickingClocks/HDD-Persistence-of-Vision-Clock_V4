@@ -64,7 +64,7 @@ The electrical connections between the PCBs are made between spring-loaded heade
 ---
 
 ## What’s Next?
-I'm currently developing this project in my spare time. Updates will probably come in batches.
+I'm developing this project in my spare time. Updates will come in batches.
 
 * Hardware
     * [ ] <a href="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/tree/main/Electrical/Driver%20Board" target="_blank" rel="no referrer noopener">_Driver Board V4.1_</a>
