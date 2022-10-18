@@ -11,3 +11,5 @@
   - This limits the motor current to just over 1A. The motor was previously limited at 2A which was leading to excessive heat.
 - Send PWM signal going to motor driver through a buffer. 
   - The datasheet says the HIGH level of PWM for the chip is 2.7V. I'm sending it 3.3V which should be enough. Shifting that up to 5V would be best.
+- R10 change value from 0ohm_NA to 0ohm
+  - Not placing this resistor results in the processor not receiving the signal.
