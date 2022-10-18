@@ -78,11 +78,13 @@ I'm developing this project in my spare time. Updates will come in batches.
         * [x] order PCBs and parts
         * [x] assemble PCB
         * [ ] test hardware
+        * [ ] update documentation (if needed)
     * [ ] <a href="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/tree/main/Electrical/LED%20Board" target="_blank" rel="no referrer noopener">_LED Board V4.0_</a>
         * [x] pick new IR reflective sensor
         * [x] order PCBs and parts
         * [ ] assmble PCB
         * [ ] test hardware
+        * [ ] update documentation (if needed)
 
 * Firmware
     * Devices
