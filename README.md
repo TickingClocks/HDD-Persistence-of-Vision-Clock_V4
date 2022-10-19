@@ -3,7 +3,7 @@
 
 #### <p align="center">HDD converted into a persistence of vision mechanical display clock<p>
 
-<p align="center">V4.0 Prototypte:<p>
+<p align="center">V4.1 Prototypte:<p>
 
 <!--gif of the protytpe-->
    <p align="center" >
