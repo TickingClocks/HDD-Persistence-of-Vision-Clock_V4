@@ -7,8 +7,10 @@
 
 <!--gif of the protytpe-->
    <p align="center" >
-<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif2.gif" height:"400">
+<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"250"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"250" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif2.gif" height:"250">
       </p>
+      
+
       
 <p align="center"><a href="https://youtu.be/2cXJMgh0BA4" target="_blank" rel="noreferrer noopener"><i>V2.0 Project YouTube Video</i></a></p>
 
@@ -61,6 +63,18 @@ The project has 2 PCBs
 
 The electrical connections between the PCBs are made between spring-loaded header pins mounted on the driver board and contact points on the back of the LED board.
 
+---
+
+## Assembly
+
+<!--gif of the protytpe-->
+   <p align="center" >
+<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif4.gif" height:"250"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"250" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif5.gif" height:"250">
+      </p>
+      
+   <p align="center">*Above shows Driver Board V4.1 and LED Board V3.1</p>
+   
+---
 ---
 
 ## What’s Next?
