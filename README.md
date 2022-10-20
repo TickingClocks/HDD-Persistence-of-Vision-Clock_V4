@@ -1,7 +1,7 @@
 <img src="Images/banner.png">
 <!--maybe add some badges here?-->
 
-#### <p align="center">HDD converted into a persistence of vision mechanical display clock<p>
+#### <p align="center">HDD converted into a persistence of vision display clock<p>
 
 <p align="center">V4.1 Prototypte:<p>
 
