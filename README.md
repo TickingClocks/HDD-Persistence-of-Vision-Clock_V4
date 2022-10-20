@@ -10,11 +10,10 @@
 <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"250"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"250" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif2.gif" height:"250">
       </p>
       
-
+---
       
 <p align="center"><a href="https://youtu.be/2cXJMgh0BA4" target="_blank" rel="noreferrer noopener"><i>V2.0 Project YouTube Video</i></a></p>
 
----
 ---
 
 ## Project Explanation
