@@ -56,11 +56,11 @@ void updateLEDs(uint8_t line){
 	switch(line){
 	case 1:
 		//display
-		status = HAL_SPI_Transmit(&hspi2, ledBuffer, 120 * 4, 100); //error is likely due to 2D array?
+		status = HAL_SPI_Transmit(&hspi2, ledBuffer, 120 * 4, 100);
 		break;
 	case 2:
 		//rear LED
-		status = HAL_SPI_Transmit(&hspi5, ledBuffer2, (3 * 4), 100); //error is likely due to 2D array?
+		status = HAL_SPI_Transmit(&hspi5, ledBuffer2, (3 * 4), 100);
 		break;
 	}
 }
