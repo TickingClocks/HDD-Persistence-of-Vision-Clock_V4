@@ -1,3 +1,22 @@
+# NOTE
+I'm not finished writing the firmware yet. The firmware I've uploaded has the following features:
+* Persistence of vision
+  * [x] Slit mask
+  * [ ] Nipkow mask
+* Devices
+  * [x] RTC
+  * [x] Temperature Sensors
+  * [x] Motor controller
+* Interface
+  * [x] Momentary buttons (x3)
+  * [ ] Rotary encoder
+* Display
+  * [x] Analog clock animation
+  * [ ] Nipkow animation
+* Configuration 
+  * [ ] Manual time setting
+  * [ ] Multiple clock faces
+
 ## Hardware Implemented in Firmware (so far)
 * Code outine in .c and .h files was generated with <a href="https://www.st.com/en/development-tools/stm32cubemx.html"><i>STM32CubeMX</i></a>.
 * Overview of components configured and used in the uploaded .c main file:
