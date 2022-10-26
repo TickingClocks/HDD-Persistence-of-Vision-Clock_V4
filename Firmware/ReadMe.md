@@ -1,5 +1,5 @@
 # NOTE
-I'm not finished writing the firmware yet. The firmware I've uploaded has the following features:
+<a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f411.html"><i>STM32CubeMX</i></a> was used to generate the microcontroller setup code and files. See the peripheral settings I used further down this readme for setup information. I'm not finished writing the firmware yet. The firmware I've uploaded has the following features:
 * Persistence of vision
   * [x] Slit mask
   * [ ] Nipkow mask
