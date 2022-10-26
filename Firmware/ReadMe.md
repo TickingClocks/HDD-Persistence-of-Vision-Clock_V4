@@ -37,6 +37,7 @@
 ## Microcontroller Configuration
 * <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f411.html"><i>STM32F411RET6</i></a>
 <p align="center"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/STM32F411%20Pins.png" width="500px"></p>
+* Microcontroller is running at 100MHz using a 16MHz external crystal.
 
 ## Timers
 |Timer   |Configuration                                         |Function                                      |
