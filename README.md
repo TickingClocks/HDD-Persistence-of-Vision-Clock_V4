@@ -90,7 +90,7 @@ I'm developing this project in my spare time. Updates will come in batches.
         * [x] update IR sensor signal resistors
         * [x] order PCBs and parts
         * [x] assemble PCB
-        * [ ] test hardware
+        * [x] test hardware (hardware is good)
         * [ ] update documentation (if needed)
     * [ ] <a href="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/tree/main/Electrical/LED%20Board" target="_blank" rel="no referrer noopener">_LED Board V4.0_</a>
         * [x] pick new IR reflective sensor
@@ -104,7 +104,7 @@ I'm developing this project in my spare time. Updates will come in batches.
         * [x] temperature sensors
         * [x] real time clock
         * [x] LEDs
-        * [ ] motor driver chip (V4.1)
+        * [x] motor driver chip (V4.1)
     * Persistence of vision (basic)
         * [x] slit light mask
         * [ ] Nipkow Disk
