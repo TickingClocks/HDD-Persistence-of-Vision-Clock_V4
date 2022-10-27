@@ -7,7 +7,7 @@
 
 <!--gif of the protytpe-->
    <p align="center" >
-<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"250"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"250" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif6.gif" height:"250">
+<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"190"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"200" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif6.gif" height:"190">
       </p>
       
 ---
