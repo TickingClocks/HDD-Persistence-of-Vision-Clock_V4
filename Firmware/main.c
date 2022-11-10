@@ -56,80 +56,80 @@ HAL_StatusTypeDef 	status;
 //flag indicating the need to update the display buffer
 static uint8_t updateDisplay 		= 1;
 //flag indicating if the motor has successfully started
-uint8_t motorSpinup 				= 0;
+uint8_t motorSpinup 			= 0;
 //flag indicating display error and a motor rev is needed
-uint8_t revMotor					= 0;
+uint8_t revMotor			= 0;
 //flag to indicate stop the motor
-uint8_t motorStop 					= 1;
+uint8_t motorStop 			= 1;
 //microsecond period of motor revolution
-uint16_t motorMicroPeriod 			= 0;
+uint16_t motorMicroPeriod 		= 0;
 //reduces microseconds off of the buffer 'slice' time
-uint8_t microNegBuf					= 1;
+uint8_t microNegBuf			= 1;
 //LED buffer variables
 uint8_t ledBuffer[120][4];
 uint8_t ledBuffer2[3][4];
 //display slices RGB array
 uint8_t displaySlice[60][3];
-uint8_t numberOfSlices				= 60;
+uint8_t numberOfSlices			= 60;
 //second hand RGB values
-uint8_t secondR						= 20;
-uint8_t secondG						= 50;
-uint8_t secondB						= 255;
+uint8_t secondR				= 20;
+uint8_t secondG				= 50;
+uint8_t secondB				= 255;
 //minute hand RGB values
-uint8_t minuteR						= 20;
-uint8_t minuteG						= 255;
-uint8_t minuteB						= 20;
+uint8_t minuteR				= 20;
+uint8_t minuteG				= 255;
+uint8_t minuteB				= 20;
 //variables to remember minute hand RGB values
 //when setting the time
-uint8_t rememberMinuteR				= 0;
-uint8_t rememberMinuteG				= 0;
-uint8_t rememberMinuteB				= 0;
+uint8_t rememberMinuteR			= 0;
+uint8_t rememberMinuteG			= 0;
+uint8_t rememberMinuteB			= 0;
 //hour hand RGB values
-uint8_t hourR						= 0;
-uint8_t hourG						= 0;
-uint8_t hourB						= 0;
+uint8_t hourR				= 0;
+uint8_t hourG				= 0;
+uint8_t hourB				= 0;
 //variables to remember hour hand RGB values
 //when setting the time
-uint8_t rememberHourR				= 1;
-uint8_t rememberHourG				= 0;
-uint8_t rememberHourB				= 0;
+uint8_t rememberHourR			= 1;
+uint8_t rememberHourG			= 0;
+uint8_t rememberHourB			= 0;
 //background color RGB values
-uint8_t backgroundR					= 0;
-uint8_t backgroundG					= 0;
-uint8_t backgroundB					= 0;
+uint8_t backgroundR			= 0;
+uint8_t backgroundG			= 0;
+uint8_t backgroundB			= 0;
 //clock face index marks RGB values
-uint8_t clockIndexR					= 5;
-uint8_t clockIndexG					= 5;
-uint8_t clockIndexB					= 0;
+uint8_t clockIndexR			= 5;
+uint8_t clockIndexG			= 5;
+uint8_t clockIndexB			= 0;
 //edge running LED RGB values
-uint8_t edgeRunnerR					= 5;
-uint8_t edgeRunnerG					= 0;
-uint8_t edgeRunnerB					= 0;
+uint8_t edgeRunnerR			= 5;
+uint8_t edgeRunnerG			= 0;
+uint8_t edgeRunnerB			= 0;
 //edge runner toggle
-uint8_t edgeRunner					= 0;
-uint8_t clockFace					= 0;
+uint8_t edgeRunner			= 0;
+uint8_t clockFace			= 0;
 
 //--TIME/RTC VARIABLES--//
 //displayed time
-static uint8_t testHour 			= 1;
-static uint8_t testMinute			= 5;
-static uint8_t testSecond 			= 0;
+static uint8_t testHour 		= 1;
+static uint8_t testMinute		= 5;
+static uint8_t testSecond 		= 0;
 
 //--for the startup animation--//
-uint8_t targetSecond				= 0;
-uint8_t targetMinute 				= 0;
-uint8_t targetHour 					= 0;
+uint8_t targetSecond			= 0;
+uint8_t targetMinute 			= 0;
+uint8_t targetHour 			= 0;
 uint8_t clockStartingAnimation 		= 1;
 //which hand is being placed in the animation
 uint8_t clockMotorStartStage 		= 0;
 //beginning animation
-uint8_t beginningAnimation 			= 1;
+uint8_t beginningAnimation 		= 1;
 
 //display animation ON/OFF
-uint8_t displayMode					= 0;
+uint8_t displayMode			= 0;
 
 //which clock display mode (clock, time setting)
-uint8_t clockMode					= 0;
+uint8_t clockMode			= 0;
 
 //current stage in time setting mode
 uint8_t timeSettingModeStage 		= 0;
@@ -137,9 +137,9 @@ uint8_t timeSettingModeStage 		= 0;
 uint8_t advanceSettingModeStage		= 0;
 
 /*--For time setting mode--*/
-uint8_t hoursHold					= 0;
-uint8_t secondsHold					= 0;
-uint8_t minutesHold					= 0;
+uint8_t hoursHold			= 0;
+uint8_t secondsHold			= 0;
+uint8_t minutesHold			= 0;
 
 /*/--1 MILLISECOND TIMER--/
  * setup timer 11 to be 1ms timer
@@ -155,17 +155,17 @@ uint32_t timer11CountMarker2		= 0;
 uint32_t timer11CountMarkerSec 		= 0;
 
 //--Motor Variables--//
-uint8_t updateMotorSpeed 			= 1;
-uint8_t motorPWMSpeed 				= 0;
+uint8_t updateMotorSpeed 		= 1;
+uint8_t motorPWMSpeed 			= 0;
 //for encoder
 static uint32_t prevTimer5Count 	= 0;
 static uint32_t timer5Count 		= 0;
 
 /*NOT USED YET
 //Temperature Sensor Variables
-float 	temperature1 				= 0.0;
-float 	temperature2 				= 0.0;
-float 	temperature3 				= 0.0;
+float 	temperature1 			= 0.0;
+float 	temperature2 			= 0.0;
+float 	temperature3 			= 0.0;
 float 	displayMaxTemperature 		= 140.0;
 float 	displayMaxStartTemperature 	= 130.0;
 */
@@ -849,12 +849,12 @@ static void MX_GPIO_Init(void)
  */
 void setClockDisplay(uint8_t hour, uint8_t minute, uint8_t second){
 
-	uint8_t sliceOffset = 30; //this offsets the display by a set number of slices
+	uint8_t sliceOffset	= 30; //this offsets the display by a set number of slices
 	//these are new time values to 'rotate' the display and place the hands in the
 	//correct place
-	uint8_t offsetHour;
-	uint8_t offsetMinute;
-	uint8_t offsetSecond;
+	uint8_t offsetHour	= 0;
+	uint8_t offsetMinute	= 0;
+	uint8_t offsetSecond	= 0;
 
 	//each clock hand takes up 1 display slice. There are 60 total slices
 	//second hand
