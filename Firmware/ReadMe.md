@@ -9,12 +9,12 @@
   * [x] Motor controller
 * Interface
   * [x] Momentary buttons (x3)
-  * [ ] Rotary encoder
+  * [x] Rotary encoder
 * Display
   * [x] Analog clock animation
   * [ ] Nipkow animation
 * Configuration 
-  * [ ] Manual time setting
+  * [x] Manual time setting
   * [ ] Multiple clock faces
 
 ## Hardware Implemented in Firmware (so far)
@@ -28,7 +28,7 @@
 |DS1307 RTC                      |YES         |YES           |I2C, basic implementation             |
 |NCT175 temperature sensor       |YES         |NO            |I2C, 3 sensors, basic implementation  |
 |Right-angle momentary buttons   |YES         |YES           |X3 buttons                            |
-|Right-angle rotary encoder      |YES         |NO            |24 pulses/rotation, TIM5 encoder mode |
+|Right-angle rotary encoder      |YES         |YES           |24 pulses/rotation, TIM5 encoder mode |
 |GPIO LED                        |YES         |NO            |not used surface mount LED            |
 |USB-C                           |NO          |NO            |-                                     |
 
@@ -44,8 +44,8 @@
 |--------|------------------------------------------------------|----------------------------------------------|
 |TIM2    |PWM Generation CH1                                    |Motor speed signal                            |
 |TIM3    |Gen Timer at 1MHz                                     |Microsecond timer used for display algorithm  |
-|TIM5    |Encoder inpute                                        |Encoder input                                 |
-|TIM11   |Gen Timer at 1MHz, interrupt overflow at 1000 pulses  |interrupt at every 1ms for ms counter         |
+|TIM5    |Encoder input                                         |Encoder input                                 |
+|TIM11   |Gen Timer at 1MHz, interrupt overflow at 1000 pulses  |Interrupt at every 1ms for ms counter         |
 
 ## Connectivity
 |Peripheral  |Configuration                |Function                            |
@@ -74,6 +74,6 @@
 ## DMA
 
 * DMA is not used yet. This microcontroller has 2 DMA controllers. I'm planning to use them for:
-  * I2C communication -  blocking is taking too much time and messing with the display
-  * SPI communication - I can hand off the SPI generation for the LEDs to DMA to free up the processor
+  * I2C communication
+  * SPI communication
 
