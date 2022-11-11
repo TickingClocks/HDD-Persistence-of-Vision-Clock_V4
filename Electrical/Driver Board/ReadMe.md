@@ -16,3 +16,4 @@
   - Current testing shows reliablity at 3.3V. If I re-spin this board I will still update this.
 - R10 change value from 0ohm_NA to 0ohm
   - Not placing this resistor results in the processor not receiving the signal.
+- Add TVS diodes to the I2C and SPI lines.
