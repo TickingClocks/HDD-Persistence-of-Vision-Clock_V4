@@ -111,3 +111,5 @@ I'm developing this project in my spare time. Updates will come in batches.
     * Persistence of vision (basic)
         * [x] slit light mask
         * [ ] Nipkow Disk
+            * [x] Prove concept
+            * [ ] Optomise 
