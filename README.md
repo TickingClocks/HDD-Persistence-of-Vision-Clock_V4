@@ -7,11 +7,16 @@
 
 <!--gif of the protytpe-->
    <p align="center" >
-<img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"190"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"200" width="30"><img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif6.gif" height:"190">
-      </p>
-      <p align="center">
-         <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Nipkow%20Prototype%20gif1.gif" height:"190">
-      </p>
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif3.gif" height:"190">
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"200" width="30">
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Prototype%20gif6.gif" height:"190">
+   </p>
+   <p align="center">
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Nipkow%20Prototype%20gif1.gif" height:"190">
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/transparent%20image.png" height:"200" width="30">
+      <img src="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Images/Hello%20World%20Nipkow%20Gif%20Test%202.gif" height:"190">
+
+   </p>
       
 ---
       
