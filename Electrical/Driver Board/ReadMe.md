@@ -17,5 +17,5 @@
 - R10 change value from 0ohm_NA to 0ohm
   - Not placing this resistor results in the processor not receiving the signal.
 - Add TVS diodes to the I2C and SPI lines.
-- upgrade processor to STM32F433 for faster cycle speed
+- upgrade processor to STM32F446 for faster cycle speed
 - upgrade motor driver because this one is unreliable
