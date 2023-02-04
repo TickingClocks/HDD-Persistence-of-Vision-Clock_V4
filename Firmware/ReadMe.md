@@ -1,4 +1,6 @@
-# NOTE
+## NOTE
+See the <a href="https://github.com/TickingClocks/HDD-Persistence-of-Vision-Clock_V4/blob/main/Firmware/Spinning%20Vision%20Flow%20Diagram.pdf"><i>Spinning Vision Flow Diagram</i></a> for a visiual outine of the code flow.
+
 <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f411.html"><i>STM32CubeMX</i></a> was used to generate the microcontroller setup code and files. See the peripheral settings I used further down this readme for setup information. I'm not finished writing the firmware yet. The firmware I've uploaded has the following features:
 * Persistence of vision
   * [x] Slit mask
