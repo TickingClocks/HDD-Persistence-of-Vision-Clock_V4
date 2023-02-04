@@ -89,7 +89,7 @@ The electrical connections between the PCBs are made between spring-loaded heade
 
 ## Firmware Breakdown
 
-###Update
+### Update
 A new version of the Firmware will be uploaded soon which includes code to run the Nipkow mask. I'm currently in final stages of testing.
 
 ### Firmware Flow Diagram
