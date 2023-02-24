@@ -5,3 +5,4 @@
 
 - Consider HD107S 2020 LEDs for faster transfer speed
 - Consider using a Hall sensor and a magnet epoxied to the light mask to reduce the sensor footprint on the LED board
+- Use larger vias in the test points to help the probes stay easier
